@@ -1,0 +1,27 @@
+ /* CSS for button hover and animation */
+ .animatedButton {
+    transition: transform 0.3s ease;
+    padding: 10px 20px;
+    font-size: 16px;
+  }
+
+  .animatedButton:hover {
+    transform: scale(1.2);
+    color: blue;
+  }
+
+  /* CSS for accordion-style content */
+  .panel {
+    display: none;
+    background-color: lightgrey;
+    padding: 10px;
+  }
+
+  .active {
+    background-color: darkgrey;
+  }
+
+  /* Simple CSS for feedback message */
+  #passwordFeedback {
+    font-size: 14px;
+  }

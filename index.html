@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WEEK 6 WEBPAGE</title>
+  <!-- Link to external JavaScript file -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Section 1: Event Handling -->
+    <h2>Event Handling</h2>
+    <button id="clickButton">Click Me</button>
+    <br><br>
+
+    <button id="hoverButton">Hover Over Me</button>
+    <br><br>
+
+    <input type="text" id="inputField" placeholder="Type something fun...">
+    <br><br>
+
+    <button id="secretButton">Double-Click Me</button>
+    <br><br>
+
+    <!-- Section 2: Interactive Elements -->
+    <h2>Interactive Elements</h2>
+    <button id="changeButton">Click to Change Text</button>
+    <br><br>
+
+    <div class="gallery">
+        <img src="https://www.pexels.com/photo/dodge-challenger-srt-in-close-photography-5058766/" alt="DODGE SRT 1">
+        <img src="https://www.pexels.com/photo/a-white-dodge-challenger-parked-on-the-side-of-the-road-18466412/" alt="DODGE SRT 2">
+        <img src="https://www.pexels.com/photo/close-up-of-white-dodge-challenger-17244848/" alt="DODGE SRT 3">
+    </div>
+    <br><br>
+
+    <button class="accordion">Section 1; About Dodge SRT</button>
+    <div class="panel">
+        <p>Dodge SRT (Street and Racing Technology) is the performance division of Dodge, a well-known American automotive brand.</p>
+        <p>SRT models are engineered for high performance and precision, combining raw power with advanced technology.</p>
+        <p>They are designed to deliver exhilarating driving experiences, featuring powerful engines, sport-tuned suspensions, and aggressive styling.</p>
+        <p>The SRT lineup includes high-performance versions of iconic models like the Dodge Challenger, Charger, and Durango.</p>
+        <p>SRT vehicles are known for their powerful engines, aggressive styling, and track-ready capabilities, making them popular among enthusiasts who seek both street and racetrack dominance..</p>
+    </div>
+
+    <button class="accordion">Section 2; SRT Performance Features</button>
+    <div class="panel">
+        <p>SRT vehicles boast some of the most powerful engines in the automotive world.</p>
+        <p>The Dodge Challenger SRT Hellcat, for example, features a supercharged V8 engine capable of producing over 700 horsepower.</p>
+        <p>These vehicles are equipped with upgraded suspension systems, enhanced brakes, and precision-tuned handling to ensure superior performance on both the street and the track.</p>
+        <p>With bold styling and performance-driven technology, Dodge SRT models offer an unforgettable driving experience for those who crave speed and adrenaline..</p>
+    </div>
+    <br><br>
+
+    <button class="animatedButton">Hover to Animate</button>
+    <br><br>
+
+    <!-- Section 3: Form Validation -->
+    <h2>Form Validation</h2>
+    <form onsubmit="return validateForm()">
+        <input type="text" id="name" placeholder="Enter your name" required>
+        <button type="submit">Submit</button>
+    </form>
+    <br><br>
+
+    <form onsubmit="return validateEmail()">
+        <input type="email" id="email" placeholder="Enter your email" required>
+        <button type="submit">Submit</button>
+    </form>
+    <br><br>
+
+    <form onsubmit="return validatePassword()">
+        <input type="password" id="password" placeholder="Enter your password" required>
+        <button type="submit">Submit</button>
+    </form>
+    <br><br>
+
+    <input type="password" id="password" placeholder="Type your password">
+    <p id="passwordFeedback"></p>
+    <br><br>
+
+    <!-- Link to the external JavaScript file -->
+  <script src="script.js"></script>
+</body>
+</html>
